@@ -4,6 +4,7 @@
 }
 
 .table-container {
+  width: 60% !important;
   margin: 0 50px !important;
   padding: 120px 0 !important;
 }
@@ -41,6 +42,7 @@
 .get-started-button {
   background-color: #61BAAE !important;
   color: white !important;
+  font-size: 20px !important;
 }
 
 .date-container {

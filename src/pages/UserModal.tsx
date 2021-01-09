@@ -95,11 +95,12 @@ const UserModal: React.FC<UserModalProps> = (props: UserModalProps) => {
            onClose={props.handleCloseModal}
            size='tiny'
            className='modal-container'
+           style={{width: "45%", height: "350px"}}
     >
       <Icon className='close-icon' name='close' onClick={props.handleCloseModal}/>
       <div style={{width: "100%", display: "flex", flexDirection: "row"}}>
-        <div style={{width: "50%", height: "100%"}}>
-          <img style={{width: "50%", minWidth: "218px", objectFit: "cover", borderBottomLeftRadius: "10px", borderTopLeftRadius: "10px"}} className="logo-image"
+        <div style={{width: "50%"}}>
+          <img style={{height: "350px", minWidth: "218px", objectFit: "cover", borderBottomLeftRadius: "10px", borderTopLeftRadius: "10px"}} className="logo-image"
                src={modalIllustration}/>
         </div>
         <div className="modal-content" style={{width: "50%", margin: "40px 20px 20px"}}>

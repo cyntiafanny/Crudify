@@ -139,22 +139,22 @@ const App = (props: AppProps) => {
 
   return (
     <React.Fragment>
-      <div style={{textAlign: "center", height: "100%", backgroundColor: "#fffcec" , paddingBottom: "210px"}}>
+      <div style={{textAlign: "center", height: "100%", backgroundColor: "#fffcec" , paddingBottom: "120px"}}>
         <div className="logo-container">
-          <img alt="Crudify" src={logo} style={{width: "100%", margin: "40px 0", maxWidth: "300px", objectFit: "cover"}}/>
+          <img alt="Crudify" src={logo} style={{width: "100%", margin: "40px 0", maxWidth: "400px", objectFit: "cover"}}/>
         </div>
         <Button className="get-started-button" onClick={() => handleScrollToContent(contentRef)}>Get Started</Button>
       </div>
-      <div style={{height: "90%"}} className="App" ref={contentRef}>
+      <div style={{height: "100%"}} className="App" ref={contentRef}>
         <div style={{width: "35%", color: "#cda291", backgroundColor: "#fffcec"}}>
           <div className="date-container">
-            <h4>{formatDate(date)}</h4>
+            <h3>{formatDate(date)}</h3>
             <div style={{textAlign: "center", marginTop: "60px"}}>
-              <h3>{generateGreeting(date)}</h3>
-              <h1 style={{fontSize: "80px"}}>{formatTime(date)}</h1>
+              <h1>{generateGreeting(date)}</h1>
+              <h1 style={{fontSize: "100px"}}>{formatTime(date)}</h1>
             </div>
-            <div style={{marginTop: "230px", textAlign: "center"}}>
-              <span>Crudify by Cyntia Fanny</span>
+            <div style={{marginTop: "300px", textAlign: "center"}}>
+              <h5>Crudify by Cyntia Fanny</h5>
             </div>
           </div>
         </div>
