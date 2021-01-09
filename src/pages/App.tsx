@@ -39,7 +39,7 @@ const App = (props: AppProps) => {
     dispatch(fetchData())
 
     setTotalUser(userList.length + 1)
-  }, [dispatch])
+  }, [dispatch, userList.length])
 
   useEffect(() => {
     const timerID = setInterval(() => tick(), 1000);
@@ -139,13 +139,13 @@ const App = (props: AppProps) => {
 
   return (
     <React.Fragment>
-      <div style={{textAlign: "center", height: "525px", backgroundColor: "#fffcec"}}>
+      <div style={{textAlign: "center", height: "600px", backgroundColor: "#fffcec"}}>
         <div className="logo-container">
-          <img src={logo} style={{width: "100%", margin: "40px 0", maxWidth: "300px", objectFit: "cover"}}/>
+          <img alt="Crudify" src={logo} style={{width: "100%", margin: "40px 0", maxWidth: "300px", objectFit: "cover"}}/>
         </div>
         <Button className="get-started-button" onClick={() => handleScrollToContent(contentRef)}>Get Started</Button>
       </div>
-      <div style={{height: "525px"}} className="App" ref={contentRef}>
+      <div style={{height: "600px"}} className="App" ref={contentRef}>
         <div style={{width: "40%", color: "#cda291", backgroundColor: "#fffcec"}}>
           <div className="date-container">
             <h4>{formatDate(date)}</h4>
