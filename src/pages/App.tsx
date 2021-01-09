@@ -139,7 +139,7 @@ const App = (props: AppProps) => {
 
   return (
     <React.Fragment>
-      <div style={{textAlign: "center", height: "100%", backgroundColor: "#fffcec" , paddingBottom: "200px"}}>
+      <div style={{textAlign: "center", height: "100%", backgroundColor: "#fffcec" , paddingBottom: "210px"}}>
         <div className="logo-container">
           <img alt="Crudify" src={logo} style={{width: "100%", margin: "40px 0", maxWidth: "300px", objectFit: "cover"}}/>
         </div>
