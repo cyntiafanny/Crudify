@@ -39,7 +39,7 @@ const App = (props: AppProps) => {
     dispatch(fetchData())
 
     setTotalUser(userList.length + 1)
-  }, [dispatch, userList.length])
+  }, [dispatch])
 
   useEffect(() => {
     const timerID = setInterval(() => tick(), 1000);
