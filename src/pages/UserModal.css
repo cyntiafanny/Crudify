@@ -1,0 +1,36 @@
+.modal-container {
+    border-radius: 10px !important;
+    display: flex;
+    flex-direction: row !important;
+}
+
+.modal-content {
+    padding-top: 40px !important;
+    display: flex;
+    flex-direction: row !important;
+}
+
+.close-icon {
+    color: gray !important;
+    padding: 0 0 5px 0 !important;
+    margin-bottom: 3px !important;
+    text-align-last: end !important;
+    top: 1rem !important;
+    right: 1rem !important;
+}
+
+.logo-container {
+    width: 40% !important;
+}
+
+.logo-image {
+    border-bottom-left-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+}
+
+.button-save {
+    background-color: #61BAAE !important;
+    color: white !important;
+    margin: 20px auto 0!important;
+}
+

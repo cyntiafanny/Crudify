@@ -1,0 +1,48 @@
+.App {
+  display: flex;
+  flex-direction: row !important;
+}
+
+.table-container {
+  margin: 0 50px !important;
+  padding: 120px 0 !important;
+}
+
+.table-header {
+  background-color: #61BAAE !important;
+  color: white !important;
+}
+
+.edit-container {
+  padding: 0 5px;
+  margin-right: 10px;
+  background-color: #ffcd34 !important;
+  color: white !important;
+}
+
+.delete-container {
+  padding: 0 5px;
+  background-color: #C0564B !important;
+  color: white !important;
+}
+
+.create-button {
+  padding: 0 5px;
+  background-color: #61BAAE !important;
+  color: white !important;
+  align-self: center !important;
+}
+
+.logo-container {
+  width: 40% !important;
+  margin: 0 auto !important;
+}
+
+.get-started-button {
+  background-color: #61BAAE !important;
+  color: white !important;
+}
+
+.date-container {
+  margin: 40px
+}
